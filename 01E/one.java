@@ -40,12 +40,28 @@ public class one {
 		System.out.println("\n[3]\n\n");
 		
 		
-		System.out.println(System.getProperty("file.encoding"));
+		/* System.out.println(System.getProperty("file.encoding")); */
 		
 		System.out.print('Ż');
 		System.out.print('ó');
 		System.out.print('ł');
 		System.out.print('ć');
+		
+		System.out.println("\n\n[4]\n");
+		
+		boolean boolA = true;
+		boolean boolB = false;
+		
+		System.out.println(boolA && boolB);
+		System.out.println(boolA || boolB);
+		System.out.println(boolA ^ boolB);
+		
+		System.out.println("\n[6]\n\n");
+		
+		double threefourths = 4 / 3;
+		
+		System.out.println(threefourths);
+	
 	}
 
 
