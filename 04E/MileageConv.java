@@ -66,12 +66,22 @@ public class MileageConv {
 				//////////////
 				case "usa":
 				System.out.println("USA"); 
+				
+				input = input / mile;
+				input = input / gallon;
+				//now we have kilometers per liter
+				
+				
 				break;
 				//////////////
 				
 				//////////////
 				case "eu":
 				System.out.println("EU"); 
+				
+				
+				
+				
 				break;
 				//////////////
 				
