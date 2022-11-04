@@ -14,6 +14,8 @@ public class Kite {
 	int rowSpaces = 0;
 	int rowStars = 0;
 	
+	boolean isEven = false;
+	
 	Scanner epicScanning = new Scanner(System.in);
 	boolean loopEscaper = true;
 	
@@ -33,10 +35,12 @@ public class Kite {
 					System.out.println("\nPlease enter a correct integer!\n"); 
 					epicScanning = new Scanner(System.in);
 				}
-		
-			if (loopingNumber %2 != 0)
+			
+			isEven = userInput %2 == 0;
+			
+			if (isEven == true || userInput<=0)
 				{
-					System.out.println("\nPlease enter an odd number!\n"); loopEscaper = true;
+					System.out.println("\nPlease enter an odd number larger than 0!\n"); loopEscaper = true;
 				}
 		}
 	//end of input number //////////////////////////////////////////////////
